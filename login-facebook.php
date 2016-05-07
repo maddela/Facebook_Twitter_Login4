@@ -5,8 +5,8 @@ require 'config/fbconfig.php';
 require 'config/functions.php';
 
 $facebook = new Facebook(array(
-            'appId' => APP_ID,
-            'secret' => APP_SECRET,
+            'appId' => 1043404272405029,
+            'secret' => 26b30af954ce4b8aa287302e74a4e698,
             ));
 
 $user = $facebook->getUser();
